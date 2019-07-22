@@ -4,18 +4,20 @@ In Today's world,many password are being cracked ! Due to lack of sometime imagi
 
 This tool makes the cracking almost impossible for any hacker to crack it
 
-Please Keep your password secret and do not reveal it to anyone 
+Please Keep your password secret and do not reveal it to anyone
 
 # Requirement 
 Must have python to use it
 
 # Usage:
-`python PassGen.py`
+`git clone https://github.com/Azh4rR31gn5/PassGen.git`  
+`cd PassGen`  
+`python PassGen.py`  
 Very simple to use
 It ask for number of lowercase , uppercase and digits
 
 # Proof
-Generated this pass '0809977expljiuVJSPOJG' and tried it on https://www.my1login.com/resources/password-strength-test/
+Generated this pass '0809977expljiuVJSPOJG' and tried it on https://www.my1login.com/resources/password-strength-test/  
 It says the time to crack it is 436 million trillion years !!!
 Almost Impossible 
 
