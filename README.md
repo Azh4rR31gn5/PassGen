@@ -1,5 +1,5 @@
 # PassGen
-A 'simple' Password Generator
+A 'simple' Password Generator but useful to generate some strong passwords
 In Today's world,many password are being cracked ! Due to lack of sometime imaginary or willingness to create a strong password
 
 This tool makes the cracking almost impossible for any hacker to crack it
