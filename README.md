@@ -17,7 +17,7 @@ Very simple to use
 It ask for number of lowercase , uppercase and digits
 
 # Proof
-Generated this pass '0809977expljiuVJSPOJG' and tried it on https://www.my1login.com/resources/password-strength-test/  
+Generated this pass **0809977expljiuVJSPOJG** and tried it on https://www.my1login.com/resources/password-strength-test/  
 It says the time to crack it is 436 million trillion years !!!
 Almost Impossible 
 
