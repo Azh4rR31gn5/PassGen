@@ -10,7 +10,7 @@ Please Keep your password secret and do not reveal it to anyone
 Must have python to use it
 
 # Usage:
-python PassGen.py
+`python PassGen.py`
 Very simple to use
 It ask for number of lowercase , uppercase and digits
 
