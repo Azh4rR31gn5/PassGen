@@ -1,10 +1,11 @@
 # Hello this is a simple password generator tool
 # 'PassGen' V 0.2b but still in beta version
-# still have bugs
-# sometime does not work as intended !!!
+# still under development 
+# will have new character later !!!!
 
 import random as r  #import random to be able to generate a random integer in a given range
 
+print()
 print("           Hello Friend  " )
 print("******** Coded by AzharREigns **********")
 print(" ******* Version : 0.2b *******")
@@ -32,66 +33,66 @@ if num !=0 :
 
 
 
- for i in range(0,num):
+ for i in range(num):
 
     x = r.randint(1, 7)  # assign random number between 1 to 6 to x
 
     if x == 1:
-        for k in range(1,alpha + 1):
+        for k in range(alpha):
             passwd += chr(r.randint(65, 90))
-        for l in range(1,lower + 1):
+        for l in range(lower):
             passwd += chr(r.randint(97, 122))
-        for m in range(1,digit + 1):
+        for m in range(digit):
             passwd += str(r.randint(0, 9))
         print(passwd)
         passwd = ""          # initialise passwd to get new value
 
     if x == 2:
-        for k in range(1,alpha + 1):
+        for k in range(alpha):
             passwd += chr(r.randint(65, 90))
-        for l in range(1,digit + 1):
+        for l in range(digit):
             passwd += str(r.randint(0, 9))
-        for m in range(1,lower + 1):
+        for m in range(lower):
             passwd += chr(r.randint(97, 122))
         print(passwd)
         passwd = ""
 
     if x == 3:
-        for l in range(1,lower + 1):
+        for l in range(lower):
             passwd += chr(r.randint(97, 122))
-        for k in range(1,alpha + 1):
+        for k in range(alpha):
             passwd += chr(r.randint(65, 90))
-        for m in range(1,digit + 1):
+        for m in range(digit):
             passwd += str(r.randint(0, 9))
         print(passwd)
         passwd = ""
 
     if x == 4:
-        for l in range(1,lower + 1):
+        for l in range(lower):
             passwd += chr(r.randint(97, 122))
-        for m in range(1,digit + 1):
+        for m in range(digit):
             passwd += str(r.randint(0, 9))
-        for k in range(1,alpha + 1):
+        for k in range(alpha):
             passwd += chr(r.randint(65, 90))
         print(passwd)
         passwd = ""
 
     if x == 5:
-        for m in range(1,digit + 1):
+        for m in range(digit):
             passwd += str(r.randint(0, 9))
-        for l in range(1,lower + 1):
+        for l in range(lower):
             passwd += chr(r.randint(97, 122))
-        for k in range(1,alpha + 1):
+        for k in range(alpha):
             passwd += chr(r.randint(65, 90))
         print(passwd)
         passwd = ""
 
     if x == 6:
-        for m in range(1,digit + 1):
+        for m in range(digit):
             passwd += str(r.randint(0, 9))
-        for k in range(1,alpha + 1):
+        for k in range(alpha):
             passwd += chr(r.randint(65, 90))
-        for l in range(1,lower + 1):
+        for l in range(lower):
             passwd += chr(r.randint(97, 122))
         print(passwd)
         passwd = ""
