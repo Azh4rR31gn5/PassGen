@@ -26,8 +26,8 @@ After generating some passwords,if they are difficult to remember copy it on any
 
 
 
-It can work as unintended but will be fix soon !!
-
+Will add new characters later !!  
+Under Development
 
 Feel free to contact me !!
 And thanks for using it 
